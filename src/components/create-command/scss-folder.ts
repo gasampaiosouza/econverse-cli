@@ -1,6 +1,6 @@
 import * as fs from 'fs-extra'
 import * as process from 'process'
-import { _reset } from '../helpers/file-content'
+import { _reset } from '../../helpers/file-content'
 
 const scssFolder = async (fileName?: string) => {
   const mainName = fileName || 'main'

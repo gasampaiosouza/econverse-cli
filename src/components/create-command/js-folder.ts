@@ -1,6 +1,6 @@
 import * as fs from 'fs-extra'
 import * as process from 'process'
-import { initialJS } from '../helpers/file-content'
+import { initialJS } from '../../helpers/file-content'
 
 const jsFolder = async (fileName?: string) => {
   const mainName = fileName || 'main'

@@ -9,7 +9,7 @@ import {
   htmlContent,
   packageJson,
   prettierrc,
-} from '../helpers/file-content'
+} from '../../helpers/file-content'
 
 const otherFiles = async (userPath: string, flagFileName: string, log: any) => {
   const fileName = flagFileName || 'main'

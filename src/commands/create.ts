@@ -1,6 +1,6 @@
 import { Command, flags } from '@oclif/command'
-import otherFiles from '../components/other-files'
-import srcFolder from '../components/src-folder'
+import otherFiles from '../components/create-command/other-files'
+import srcFolder from '../components/create-command/src-folder'
 
 import {
   defaultErrorMessage,
