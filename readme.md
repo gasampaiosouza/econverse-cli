@@ -1,6 +1,6 @@
 # Econverse CLI
 
-This is an amazing CLI to help [Econverse](http:#econverse.digital/) in their project creations.
+This is an amazing CLI to help [Econverse](https://econverse.digital/) in their project creations.
 
 You might need to use **Econverse CLI** if you need to start a new project and have no patience to get all those files from an already finished project.
 
@@ -17,7 +17,7 @@ You might need to use **Econverse CLI** if you need to start a new project and h
 ### Quick Start
 
 ```sh
-# Start a new project in ./emania/
+# Starting a new project in ./emania/
 $ npx econverse new emania
 
 # this message will appear if everything works as planned
@@ -44,7 +44,7 @@ For example:
 # Set file's name to be emania-general
 $ npx econverse new emania --file-name emania-general
 
-# Or, more simple
+# Or, simply
 $ npx econverse new emania -f emania-general
 ```
 
@@ -52,7 +52,7 @@ It will change every main file name to `emania-general`, as you can see here:
 
 ![Project tree image](https://imgur.com/1aypPCB.png)
 
-But the actual project's name will be, either the **path** you selected, or the **parent folder's name**, as we can see here in package.json
+But the actual project's name will be, either the **path** you selected, or the **parent folder's name**, as we can see here in `package.json`
 
 ![Getting parent folder's name image](https://imgur.com/4fZlSZD.png)
 
@@ -86,7 +86,7 @@ To see if it's actually working, type `econverse -v`.
 
 ## Contribution
 
-This CLI was made with [oclif](https://oclif.io/docs), so you can go and take a look at their docs.
+This CLI was made with [oclif](https://oclif.io/docs), so you can go and take a look at [their docs](https://oclif.io/docs).
 
 <br />
 
@@ -121,7 +121,7 @@ export class MyCommand extends Command {
 
 > Or you can [create one by yourself](https://oclif.io/docs/introduction)
 
-Then, you can create any command the way you want. Be creative 🎉!
+Then, create any command the way you want. Be creative 🎉!
 
 ### Thank you 💚
 
