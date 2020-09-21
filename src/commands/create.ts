@@ -11,7 +11,7 @@ import {
 
 export default class Create extends Command {
   static description =
-    'Create a new project boiler-plate with Econverse template'
+    'Create a new project boiler-plate with Econverse template. Type `econverse create -h` for more info.'
 
   static examples = [
     '$ econverse create my-cool-project',
