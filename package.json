@@ -1,7 +1,7 @@
 {
   "name": "econverse",
   "description": "An amazing CLI made exclusively for Econverse.",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "author": "Gabriel Sampaio @gasampaiosouza",
   "bin": {
     "econverse": "./bin/run"
