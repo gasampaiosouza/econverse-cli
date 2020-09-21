@@ -43,6 +43,17 @@ export default class Create extends Command {
     if (flags.help) return this._help()
     if (!args.path) this.error(noPathMessage)
 
+    if (args.path.indexOf('/')) {
+      const firstFolder = args.path.split('/')[1]
+
+      return this.error('Oops, sorry! You cannot create two folders at once!', {
+        code: 'fat1',
+        suggestions: [
+          `Use one unique path, without slash (/). In your case, it might be: "econverse create ${firstFolder}".`,
+        ],
+      })
+    }
+
     try {
       // create src folder
       await srcFolder(args.path, flags['file-name'] || '', this)
