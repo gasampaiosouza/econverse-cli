@@ -9,7 +9,7 @@ You might need to use **Econverse CLI** if you need to start a new project and h
 ## Content tree
 
 - [Quick Start](#quick-start)
-  - [Change file's name](#change-file's-name)
+  - [Change file's name](#change-files-name)
 - [Global Installation](#global-installation)
 - [Commands](#commands)
 - [Contribution](#contribution)
